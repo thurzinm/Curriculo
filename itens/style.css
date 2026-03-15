@@ -13,7 +13,7 @@ header{
     rotate: (-90deg);
     transform-origin: left top;
     width: 50%;
-    height: 100%;
+    height: fit-content;
     padding: 10px;
     align-items: center;
 }
@@ -27,7 +27,8 @@ header{
 }
 
 #contact{
-    padding-left: 30%;
+    padding-top: 30px;
+    padding-left: 20%;
     display: grid;
     align-items: center;
     height: 100vh;
@@ -35,12 +36,13 @@ header{
 }
 
 img{
-    max-width: 100px;
+    width: 310px;
+    height: 310px;
     border-radius: 10px;
 }
 
-#Perfil{
-    background-color: antiquewhite;    
+#info{
+    padding-top: 30px;
 }
 
 h1{
@@ -69,6 +71,7 @@ main{
     transform-origin: right top;
     width: fit-content;
     padding: 10px;
+    padding-top: 10px;
 }
 
 h2{
@@ -76,6 +79,7 @@ h2{
     padding-top: 15px;
     font-size: 4rem;
     color: black;
+    padding-bottom: 10px;
 }
 
 p{
