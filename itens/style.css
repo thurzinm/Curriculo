@@ -46,3 +46,9 @@ h1{
 ul{
     padding-top: 5px;
 }
+
+main{
+    display: inline-block;
+    rotate: (-90deg);
+    transform-origin: right top;
+}
