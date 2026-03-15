@@ -6,6 +6,8 @@
 
 body{
     display: flex;
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -15,19 +17,19 @@ header{
     width: 50%;
     height: fit-content;
     padding: 10px;
-    align-items: center;
+    align-items: top;
 }
 
 #cabeçalho{
-    height: fit-content;
+    height: auto;
     width: fit-content;
     background-color: cadetblue;
     display: grid;
-    align-items: center;
+    align-items: top;
 }
 
 #contact{
-    padding-top: 30px;
+    padding-top: 80px;
     padding-left: 20%;
     display: grid;
     align-items: center;
@@ -72,6 +74,7 @@ main{
     width: fit-content;
     padding: 10px;
     padding-top: 10px;
+    height: 100%;
 }
 
 h2{
@@ -86,7 +89,7 @@ p{
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-size: 1rem;
     justify-content: center;
     text-align: justify;
@@ -106,4 +109,15 @@ p{
     width: 100%;
     height: 20px;
     background-color: cadetblue;
+}
+
+h3{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+#cursos{
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 20px;
 }
