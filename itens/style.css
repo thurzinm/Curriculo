@@ -15,6 +15,7 @@ header{
     width: 50%;
     height: 100%;
     padding: 10px;
+    align-items: center;
 }
 
 #cabeçalho{
@@ -77,8 +78,14 @@ h2{
 }
 
 p{
+    padding-right: 15px;
+    padding-left: 15px;
     padding-top: 20px;
     font-size: 1rem;
     justify-content: center;
     text-align: justify;
+}
+
+#subtitulo{
+    padding-left: 15px;
 }
