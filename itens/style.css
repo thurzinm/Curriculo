@@ -3,3 +3,35 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+header{
+    display: inline-block;
+    rotate: (-90deg);
+    transform-origin: left top;
+}
+
+#cabeçalho{
+    height: 100vh;
+    width: 300px;
+    background-color: aqua;
+    display: grid;
+    align-items: center;
+}
+
+#contact{
+    display: inline;
+    align-items: center;
+    height: 100vh;
+    width: 50px;
+}
+
+img{
+    height: 10vh;
+    width: 10vw;
+    border-radius: 10px;
+}
+
+#Perfil{
+    size: 200px;
+    background-color: antiquewhite;    
+}
