@@ -12,14 +12,15 @@ header{
 
 #cabeçalho{
     height: 100vh;
-    width: 300px;
+    width: 33%;
     background-color: aqua;
     display: grid;
     align-items: center;
 }
 
 #contact{
-    display: inline;
+    padding-left: 30%;
+    display: grid;
     align-items: center;
     height: 100vh;
     width: 50px;
@@ -34,4 +35,14 @@ img{
 #Perfil{
     size: 200px;
     background-color: antiquewhite;    
+}
+
+h1{
+    padding-top: 15px;
+    font-size: 1.25rem;
+    color: black;
+}
+
+ul{
+    padding-top: 5px;
 }
