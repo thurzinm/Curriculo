@@ -4,16 +4,23 @@
     margin: 0;
 }
 
+body{
+    display: flex;
+}
+
 header{
     display: inline-block;
     rotate: (-90deg);
     transform-origin: left top;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
 }
 
 #cabeçalho{
-    height: 100vh;
-    width: 33%;
-    background-color: aqua;
+    height: fit-content;
+    width: fit-content;
+    background-color: cadetblue;
     display: grid;
     align-items: center;
 }
@@ -23,17 +30,15 @@ header{
     display: grid;
     align-items: center;
     height: 100vh;
-    width: 50px;
+    width: 500px;
 }
 
 img{
-    height: 10vh;
-    width: 10vw;
+    max-width: 100px;
     border-radius: 10px;
 }
 
 #Perfil{
-    size: 200px;
     background-color: antiquewhite;    
 }
 
@@ -47,8 +52,33 @@ ul{
     padding-top: 5px;
 }
 
+li{
+    font-size: 1.2rem;
+    padding-left: 5x;
+    padding-top: 5px;
+}
+
+#linguagens{
+    padding-left: 30px;
+}
+
 main{
     display: inline-block;
     rotate: (-90deg);
     transform-origin: right top;
+    width: fit-content;
+    padding: 10px;
+}
+
+h2{
+    padding-top: 15px;
+    font-size: 4rem;
+    color: black;
+}
+
+p{
+    padding-top: 20px;
+    font-size: 1rem;
+    justify-content: center;
+    text-align: justify;
 }
